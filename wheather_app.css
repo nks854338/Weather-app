@@ -25,35 +25,34 @@ body {
 }
 
 .search{
-    height: 5vmin;
-    width: 35vmin;
+    height: 6vmin;
+    width: 40vmin;
     display: flex;
     justify-content: space-between;
-    font-size: 3.5vmin;
     background-color: #ffffff;
     border-radius: 15vmin;
 }
 
 #inputElement{
     background-color: transparent;
-    width: 25vmin;
+    width: 30vmin;
     border: none;
     text-align: center;
-    font-size: 2vmin;
+    font-size: 3vmin;
 }
 
 .icon{
     background-color: #025f7e;
     color:#ffffff;
     padding: 3.5px;
-    height: 4vmin;
-    width: 4vmin;
+    height: 5vmin;
+    width: 5vmin;
     border-radius: 50%;
     text-align: center;
     align-items: center;
     display: flex;
     justify-content: center;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
 }
 
 
