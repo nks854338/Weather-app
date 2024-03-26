@@ -24,6 +24,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 .search{
     height: 6vmin;
     width: 40vmin;
@@ -31,6 +32,7 @@ body {
     justify-content: space-between;
     background-color: #ffffff;
     border-radius: 15vmin;
+    position: relative;
 }
 
 #inputElement{
@@ -42,7 +44,7 @@ body {
 }
 
 .icon{
-    background-color: #025f7e;
+    background-color: rgb(15, 15, 134);
     color:#ffffff;
     padding: 3.5px;
     height: 5vmin;
@@ -103,6 +105,7 @@ body {
 
 .hour {
     background-color: #025f7e;
+    background-image: linear-gradient(rgb(62, 62, 144), rgb(143, 203, 222));
     display: grid;
     height: 20vh;
     width: 15vh;
