@@ -6,7 +6,8 @@
 body {
     color: #ffffff;
     background-color: #007ea7;
-    margin: 5vh 20vh;
+    background-image: linear-gradient(rgb(40, 40, 151),rgb(88, 88, 182), rgb(141, 207, 229));
+    margin: 4.2vh 17vh;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -23,7 +24,6 @@ body {
     display: flex;
     align-items: center;
 }
-
 .search{
     height: 6vmin;
     width: 40vmin;
