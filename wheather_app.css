@@ -7,11 +7,11 @@ body {
     color: #ffffff;
     background:linear-gradient(#09536c, rgb(158, 203, 221));
     margin: 5vh 15vh;
+    height: 95vh;
     font-family: 'Poppins', sans-serif;
 }
 
 .container{
-    height: 90vmin;
     display: grid;
     justify-content: space-around;
 }
@@ -147,6 +147,7 @@ body {
 @media(max-width:900px){
     body{
         margin: 5vmin;
+        height: 98.5vh;
     }
 
 
@@ -171,6 +172,10 @@ body {
         margin-bottom: 7vh;
         display: grid;
      }
+
+     .box_2121{
+        font-size: 5vmin;
+    }
 
      .day_hour{
         display: grid;
@@ -200,11 +205,13 @@ body {
 
 @media(max-width:450px){
     body{
-        margin: 4vmin;
+        /* justify-content: space-around; */
+        height: 95vh;
+        justify-content: space-around;
     }
 
     .container{
-        margin: 0;
+        justify-content:stretch;
     }
 
     .location h1{
@@ -216,20 +223,23 @@ body {
     }
 
     .para{
-        font-size: 3.5vmin;
+        font-size: 4vmin;
+    }
+
+    .box_2121{
+        font-size: 4.5vmin;
     }
 
      .hour{
-        height:10vh ;
-        width:7vh ;
+        height:12vh ;
+        width:7.5vh ;
         font-size:3vmin ;
-        margin-left: 0;
-        margin-right: 0;
      }
 
      .search{
         height: 4.5vmin;
         width: 30vmin;
+        margin-right: 2vmin;
     }
     
     
