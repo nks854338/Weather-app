@@ -5,30 +5,28 @@
 
 body {
     color: #ffffff;
-    background:linear-gradient(#044960, rgb(168, 217, 237));
+    background: linear-gradient(#044960, rgb(168, 217, 237));
     margin: 5vh 15vh;
     height: 95vh;
     font-family: 'Poppins', sans-serif;
 }
 
-.container{
+.container {
     display: grid;
     justify-content: space-around;
 }
-
-
 
 .location h1 {
     font-size: 6vmin;
 }
 
-.box_1{
+.box_1 {
     justify-content: space-between;
     display: flex;
     align-items: center;
 }
 
-.search{
+.search {
     height: 6vmin;
     width: 40vmin;
     display: flex;
@@ -37,7 +35,7 @@ body {
     border-radius: 10px;
 }
 
-#inputElement{
+#inputElement {
     background-color: transparent;
     width: 30vmin;
     border: none;
@@ -45,10 +43,10 @@ body {
     font-size: 3vmin;
 }
 
-.searchicon{
+.searchicon {
     font-size: 4.5vmin;
     display: flex;
-    color:#08455a;
+    color: #08455a;
     margin: 1vmin;
     cursor: pointer;
 }
@@ -59,8 +57,11 @@ body {
     justify-content: space-around;
 }
 
-.box_21, .box_211, .box_2,
-.condition, .box_1{
+.box_21,
+.box_211,
+.box_2,
+.condition,
+.box_1 {
     display: flex;
 }
 
@@ -81,11 +82,11 @@ body {
     font-size: 13vmin;
 }
 
-.con{
+.con {
     margin: 4vmin;
 }
 
-.fir_con{
+.fir_con {
     font-size: 3.5vmin;
     font-weight: 700;
 }
@@ -100,7 +101,7 @@ body {
 }
 
 .hour {
-    background:linear-gradient(rgb(8, 79, 107), skyblue);
+    background: linear-gradient(rgb(8, 79, 107), skyblue);
     display: grid;
     text-align: center;
     height: 21vh;
@@ -111,9 +112,9 @@ body {
     border-radius: 2.5vmin;
 }
 
-.icon{
+.icon {
     background-color: transparent;
-    color:#ffffff;
+    color: #ffffff;
     height: 8vmin;
     width: 8vmin;
     text-align: center;
@@ -123,19 +124,24 @@ body {
     cursor: pointer;
 }
 
-#icon1{
+#icon1 {
     height: 17vmin;
     width: 17vmin;
 }
 
-.icons{
+.icons {
     display: flex;
 }
-.minMax{
+
+.minMax {
     font-size: 3vmin;
 }
 
-.hour, .condition div, .box_21, .icons, .searchicon{
+.hour,
+.condition div,
+.box_21,
+.icons,
+.searchicon {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -144,133 +150,133 @@ body {
 
 
 
-@media(max-width:900px){
-    body{
+@media(max-width:900px) {
+    body {
         margin: 5vmin;
         height: 98.5vh;
     }
 
 
-    #city{
+    #city {
         font-size: 4.8vmin;
     }
 
-    .search{
+    .search {
         height: 4.5vmin;
         width: 35vmin;
     }
-    
-    
-    .searchicon{
+
+
+    .searchicon {
         font-size: 3.5vmin;
         margin: 1vmin;
     }
 
 
-     .box_2{
+    .box_2 {
         margin-top: 7vh;
         margin-bottom: 7vh;
         display: grid;
-     }
+    }
 
-     .box_2121{
+    .box_2121 {
         font-size: 5vmin;
     }
 
-     .day_hour{
+    .day_hour {
         display: grid;
         grid-template-columns: repeat(4, 0.2fr);
-     }
+    }
 
-     .hour{
-        height:13vh ;
-        width:8vh ;
-        font-size:3vmin ;
-     }
+    .hour {
+        height: 13vh;
+        width: 8vh;
+        font-size: 3vmin;
+    }
 
-     .minMax span{
+    .minMax span {
         font-size: 2vmin;
-     }
+    }
 
-     .icon{
+    .icon {
         height: 6vmin;
         width: 6vmin;
     }
 
-    .con span{
+    .con span {
         font-size: 3vmin;
     }
 
 }
 
-@media(max-width:450px){
-    body{
+@media(max-width:450px) {
+    body {
         margin: 5px 15px;
-        height: 94.5vh;
+        height: 95.5vh;
         justify-content: space-around;
     }
 
-    .container{
-        justify-content:stretch;
+    .container {
+        justify-content: stretch;
     }
 
-    .location #city{
-        font-size: 27px;
+    .location #city {
+        font-size: 28px;
         font-weight: 400;
     }
 
-    .location p{
+    .location p {
         font-size: 15px;
     }
 
-    .para{
+    .para {
         font-size: 22px;
     }
 
-    .box_2121{
+    .box_2121 {
         font-size: 30px;
     }
 
-    .con span{
+    .con span {
         font-size: 17px;
     }
 
-     .hour{
-        height:90px ;
-        width:60px ;
+    .hour {
+        height: 88px;
+        width: 60px;
         margin: 10px;
-        margin-top: 30px;
-     }
+        margin-top: 20px;
+    }
 
-     .hour .week{
+    .hour .week {
         font-size: 17px;
-     }
+    }
 
-     .minMax span{
+    .minMax span {
         font-size: 12px;
-     }
+    }
 
-     .search{
+    .search {
         height: 5vmin;
         width: 30vmin;
         margin-right: 25px;
     }
-    
-    
-    .searchicon{
+
+
+    .searchicon {
         font-size: 3.5vmin;
         margin: 1vmin;
         color: #ffffff;
     }
 
-    .icon{
+    .icon {
         height: 10vmin;
         width: 10vmin;
     }
-    
-    #icon1{
-        height: 19vmin;
-        width: 19vmin;
+
+    #icon1 {
+        height: 20vmin;
+        width: 20vmin;
     }
 
 }
