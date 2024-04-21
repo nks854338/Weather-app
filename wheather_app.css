@@ -5,7 +5,7 @@
 
 body {
     color: #ffffff;
-    background:linear-gradient(#ffffff, rgb(158, 203, 221));
+    background:linear-gradient(#044960, rgb(168, 217, 237));
     margin: 5vh 15vh;
     height: 95vh;
     font-family: 'Poppins', sans-serif;
@@ -205,7 +205,7 @@ body {
 
 @media(max-width:450px){
     body{
-        /* justify-content: space-around; */
+        margin: 5px 15px;
         height: 95.5vh;
         justify-content: space-around;
     }
@@ -251,9 +251,9 @@ body {
      }
 
      .search{
-        height: 4.5vmin;
+        height: 5vmin;
         width: 30vmin;
-        margin-right: 45px;
+        margin-right: 25px;
     }
     
     
