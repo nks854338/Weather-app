@@ -203,10 +203,11 @@ body {
 
 }
 
+
 @media(max-width:450px){
     body{
         /* justify-content: space-around; */
-        height: 95vh;
+        height: 95.5vh;
         justify-content: space-around;
     }
 
@@ -214,32 +215,46 @@ body {
         justify-content:stretch;
     }
 
-    .location h1{
-        font-size: 3.7vmin;
+    .location #city{
+        font-size: 27px;
+        font-weight: 400;
     }
 
     .location p{
-        font-size: 2vmin;
+        font-size: 15px;
     }
 
     .para{
-        font-size: 4vmin;
+        font-size: 22px;
     }
 
     .box_2121{
-        font-size: 4.5vmin;
+        font-size: 30px;
+    }
+
+    .con span{
+        font-size: 17px;
     }
 
      .hour{
-        height:12vh ;
-        width:7.5vh ;
-        font-size:3vmin ;
+        height:90px ;
+        width:60px ;
+        margin: 10px;
+        margin-top: 30px;
+     }
+
+     .hour .week{
+        font-size: 17px;
+     }
+
+     .minMax span{
+        font-size: 12px;
      }
 
      .search{
         height: 4.5vmin;
         width: 30vmin;
-        margin-right: 2vmin;
+        margin-right: 25px;
     }
     
     
@@ -247,6 +262,16 @@ body {
         font-size: 3.5vmin;
         margin: 1vmin;
         color: #ffffff;
+    }
+
+    .icon{
+        height: 10vmin;
+        width: 10vmin;
+    }
+    
+    #icon1{
+        height: 19vmin;
+        width: 19vmin;
     }
 
 }
