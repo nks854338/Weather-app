@@ -206,7 +206,7 @@ body {
 @media(max-width:450px){
     body{
         margin: 5px 15px;
-        height: 95.5vh;
+        height: 94.5vh;
         justify-content: space-around;
     }
 
