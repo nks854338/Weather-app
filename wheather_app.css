@@ -5,15 +5,18 @@
 
 body {
     color: #ffffff;
-    background-color: #007ea7;
-    background-image: linear-gradient(rgb(40, 40, 151),rgb(88, 88, 182), rgb(141, 207, 229));
-    margin: 4.2vh 17vh;
+    background:linear-gradient(#09536c, rgb(158, 203, 221));
+    margin: 5vh 15vh;
     font-family: 'Poppins', sans-serif;
 }
 
-.location {
-    margin: 5vh;
+.container{
+    height: 90vmin;
+    display: grid;
+    justify-content: space-around;
 }
+
+
 
 .location h1 {
     font-size: 6vmin;
@@ -31,8 +34,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
-    border-radius: 15vmin;
-    position: relative;
+    border-radius: 10px;
 }
 
 #inputElement{
@@ -43,18 +45,12 @@ body {
     font-size: 3vmin;
 }
 
-.icon{
-    background-color: rgb(15, 15, 134);
-    color:#ffffff;
-    padding: 3.5px;
-    height: 5vmin;
-    width: 5vmin;
-    border-radius: 50%;
-    text-align: center;
-    align-items: center;
+.searchicon{
+    font-size: 4.5vmin;
     display: flex;
-    justify-content: center;
-    font-size: 2.5vmin;
+    color:#08455a;
+    margin: 1vmin;
+    cursor: pointer;
 }
 
 
@@ -104,10 +100,10 @@ body {
 }
 
 .hour {
-    background-color: #025f7e;
-    background-image: linear-gradient(rgb(62, 62, 144), rgb(143, 203, 222));
+    background:linear-gradient(rgb(8, 79, 107), skyblue);
     display: grid;
-    height: 20vh;
+    text-align: center;
+    height: 21vh;
     width: 15vh;
     margin: 2vh;
     font-size: 3.5vmin;
@@ -115,14 +111,34 @@ body {
     border-radius: 2.5vmin;
 }
 
-.hour, .condition div, .box_21{
+.icon{
+    background-color: transparent;
+    color:#ffffff;
+    height: 8vmin;
+    width: 8vmin;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#icon1{
+    height: 17vmin;
+    width: 17vmin;
+}
+
+.icons{
+    display: flex;
+}
+.minMax{
+    font-size: 3vmin;
+}
+
+.hour, .condition div, .box_21, .icons, .searchicon{
     text-align: center;
     justify-content: center;
     align-items: center;
-}
-
-.day_hour div i {
-    font-size: 7vmin;
 }
 
 
@@ -132,6 +148,23 @@ body {
     body{
         margin: 5vmin;
     }
+
+
+    #city{
+        font-size: 4.8vmin;
+    }
+
+    .search{
+        height: 4.5vmin;
+        width: 35vmin;
+    }
+    
+    
+    .searchicon{
+        font-size: 3.5vmin;
+        margin: 1vmin;
+    }
+
 
      .box_2{
         margin-top: 7vh;
@@ -145,10 +178,24 @@ body {
      }
 
      .hour{
-        height:15vh ;
-        width:10vh ;
+        height:13vh ;
+        width:8vh ;
         font-size:3vmin ;
      }
+
+     .minMax span{
+        font-size: 2vmin;
+     }
+
+     .icon{
+        height: 6vmin;
+        width: 6vmin;
+    }
+
+    .con span{
+        font-size: 3vmin;
+    }
+
 }
 
 @media(max-width:450px){
@@ -156,8 +203,12 @@ body {
         margin: 4vmin;
     }
 
+    .container{
+        margin: 0;
+    }
+
     .location h1{
-        font-size: 4vmin;
+        font-size: 3.7vmin;
     }
 
     .location p{
@@ -175,4 +226,17 @@ body {
         margin-left: 0;
         margin-right: 0;
      }
+
+     .search{
+        height: 4.5vmin;
+        width: 30vmin;
+    }
+    
+    
+    .searchicon{
+        font-size: 3.5vmin;
+        margin: 1vmin;
+        color: #ffffff;
+    }
+
 }
