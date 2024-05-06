@@ -44,7 +44,7 @@ body {
 }
 
 .searchicon {
-    font-size: 4.5vmin;
+    font-size: 5vmin;
     display: flex;
     color: #08455a;
     margin: 1vmin;
@@ -115,8 +115,8 @@ body {
 .icon {
     background-color: transparent;
     color: #ffffff;
-    height: 8vmin;
-    width: 8vmin;
+    height: 10vmin;
+    width: 10vmin;
     text-align: center;
     align-items: center;
     display: flex;
@@ -270,8 +270,8 @@ body {
     }
 
     .icon {
-        height: 10vmin;
-        width: 10vmin;
+        height: 12vmin;
+        width: 12vmin;
     }
 
     #icon1 {
