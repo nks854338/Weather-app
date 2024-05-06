@@ -68,63 +68,19 @@ function Samay() {    //function assign week names
     }
     else if (day == 1) {
         day = "Monday";
-        week2.innerText = 'Sun';
-        week3.innerText = 'Mon';
-        week4.innerText = 'Tue';
-        week5.innerText = 'Wed';
-        week6.innerText = 'Thu';
-        week7.innerText = 'Fri';
-        week8.innerText = 'Sat';
-        week1.innerText = 'Sun';
+        week8.innerText = 'Mon';
+        week1.innerText = 'Mon';
+        week2.innerText = 'Tue';
+        week3.innerText = 'Wed';
+        week4.innerText = 'Thu';
+        week5.innerText = 'Fri';
+        week6.innerText = 'Sat';
+        week7.innerText = 'Sun';
     }
     else if (day == 2) {
         day = "Tuesday";
-        week3.innerText = 'Sun';
-        week4.innerText = 'Mon';
-        week5.innerText = 'Tue';
-        week6.innerText = 'Wed';
-        week7.innerText = 'Thu';
-        week8.innerText = 'Fri';
-        week1.innerText = 'Sat';
-        week2.innerText = 'Sun';
-    }
-    else if (day == 3) {
-        day = "Wednesday";
-        week4.innerText = 'Sun';
-        week5.innerText = 'Mon';
-        week6.innerText = 'Tue';
-        week7.innerText = 'Wed';
-        week8.innerText = 'Thu';
-        week1.innerText = 'Fri';
-        week2.innerText = 'Sat';
-        week3.innerText = 'Sun';
-    }
-    else if (day == 4) {
-        day = "Thursday";
-        week5.innerText = 'Sun';
-        week6.innerText = 'Mon';
-        week7.innerText = 'Tue';
-        week8.innerText = 'Wed';
-        week1.innerText = 'Thu';
-        week2.innerText = 'Fri';
-        week3.innerText = 'Sat';
-        week4.innerText = 'Sun';
-    }
-    else if (day == 5) {
-        day = "Friday";
-        week6.innerText = 'Sun';
         week7.innerText = 'Mon';
         week8.innerText = 'Tue';
-        week1.innerText = 'Wed';
-        week2.innerText = 'Thu';
-        week3.innerText = 'Fri';
-        week4.innerText = 'Sat';
-        week5.innerText = 'Sun';
-    }
-    else if (day == 6) {
-        day = "Saturday";
-        week7.innerText = 'Sun';
-        week8.innerText = 'Mon';
         week1.innerText = 'Tue';
         week2.innerText = 'Wed';
         week3.innerText = 'Thu';
@@ -132,7 +88,50 @@ function Samay() {    //function assign week names
         week5.innerText = 'Sat';
         week6.innerText = 'Sun';
     }
-
+    else if (day == 3) {
+        day = "Wednesday";
+        week6.innerText = 'Mon';
+        week7.innerText = 'Tue';
+        week8.innerText = 'Wed';
+        week1.innerText = 'Wed';
+        week2.innerText = 'Thu';
+        week3.innerText = 'Fri';
+        week4.innerText = 'Sat';
+        week5.innerText = 'Sun';
+    }
+    else if (day == 4) {
+        day = "Thursday";
+        week5.innerText = 'Mon';
+        week6.innerText = 'Tue';
+        week7.innerText = 'Wed';
+        week8.innerText = 'Thu';
+        week1.innerText = 'Thu';
+        week2.innerText = 'Fri';
+        week3.innerText = 'Sat';
+        week4.innerText = 'Sun';
+    }
+    else if (day == 5) {
+        day = "Friday";
+        week4.innerText = 'Mon';
+        week5.innerText = 'Tue';
+        week6.innerText = 'Wed';
+        week7.innerText = 'Thu';
+        week8.innerText = 'Fri';
+        week1.innerText = 'Fri';
+        week2.innerText = 'Sat';
+        week3.innerText = 'Sun';
+    }
+    else if (day == 6) {
+        day = "Saturday";
+        week3.innerText = 'Mon';
+        week4.innerText = 'Tue';
+        week5.innerText = 'Wed';
+        week6.innerText = 'Thu';
+        week7.innerText = 'Fri';
+        week8.innerText = 'Sat';
+        week1.innerText = 'Sat';
+        week2.innerText = 'Sun';
+    }
 
 
     //assign month names
