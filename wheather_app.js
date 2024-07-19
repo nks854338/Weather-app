@@ -238,8 +238,8 @@ fetchWeathers();
 
 
 search.addEventListener('click', () => {                       //assign wheather condition according to user input
-    city = document.getElementById("inputElement").value;
-    document.getElementById("inputElement").value = "";
+    city = document.getElementById("inputCity").value;
+    document.getElementById("inputCity").value = "";
 
     const url = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/' + encodeURIComponent(city) + '?key=G9LND5LG6QJG8Y3QN3EAQPHFE';
 
@@ -299,6 +299,11 @@ search.addEventListener('click', () => {                       //assign wheather
     fetchWeather();
 
 })
+
+
+
+
+
 
 
 
