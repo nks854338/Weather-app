@@ -7,7 +7,7 @@ Welcome to ClimaCast, an API-powered weather application that provides real-time
 * Responsive Design: Accessible on both desktop and mobile devices for on-the-go weather updates.
 * Easy-to-Use Interface: A clean and intuitive user experience, making weather data easy to read and understand.
 ## 🚀 Project Demo
-Check out the live demo of ClimaCast here [Visit site](https://nks854338.github.io/Weather-app/) / [Visit site](https://preeminent-bavarois-15ea4d.netlify.app).
+Check out the live demo of ClimaCast here [Visit site](https://weather-app-peach-one-84.vercel.app/) / [Visit site](https://preeminent-bavarois-15ea4d.netlify.app).
 
 ## 🛠️ How It Works
 + HTML: The structure of the application, defining the layout and essential elements.
